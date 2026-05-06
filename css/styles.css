@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f0f4f0;
+}
+
+.contacto {
+    background: #6b8e23;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 300px;
+    margin: auto;
+}
+
+input, button {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    background: #556b2f;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #3e4f1c;
+}
